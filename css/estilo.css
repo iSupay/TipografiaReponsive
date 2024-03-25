@@ -1,0 +1,56 @@
+@font-face {
+    font-family: PetitFormal;
+    src: url(../fonts/PetitFormalScript-Regular.ttf);
+}
+@font-face {
+    font-family: SpaceMono;
+    src: url(../fonts/SpaceMono-Regular.ttf);
+}
+@font-face {
+    font-family: ShadowIL2;
+    src: url(../fonts/ShadowsIntoLightTwo-Regular.ttf);
+}
+@font-face {
+    font-family: TwinkleStar;
+    src: url(../fonts/TwinkleStar-Regular.ttf);
+}
+@font-face {
+    font-family: ZillaSH;
+    src: url(../fonts/ZillaSlabHighlight-Regular.ttf);
+}
+
+body{
+    max-width: 1200px;
+    margin: auto;
+    font-size: clamp(1em, 3vw, 2em);
+    background-color: rgba(19, 19, 68, 0.767);
+}
+
+h1{
+    text-align: center;
+    font-family: PetitFormal;
+    color: rgb(182, 104, 60);
+    background-color: rgba(33, 35, 61, 0.685);
+}
+
+h3{
+    font-family: ShadowIL2;
+    color: brown;
+}
+
+p{
+    font-family: SpaceMono;
+    color: beige;
+}
+
+.caja_img{
+    width: 90%;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+    font-size: 1em;
+    font-family: TwinkleStar;
+    color: rgb(255, 255, 255);
+}
